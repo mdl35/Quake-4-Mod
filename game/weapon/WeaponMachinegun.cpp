@@ -34,6 +34,7 @@ private:
 	stateResult_t		State_Flashlight	( const stateParms_t& parms );
 
 	CLASS_STATES_PROTOTYPE ( rvWeaponMachinegun );
+	void AimAtEnemies();
 };
 
 CLASS_DECLARATION( rvWeapon, rvWeaponMachinegun )
